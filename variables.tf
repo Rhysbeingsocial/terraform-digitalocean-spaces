@@ -1,15 +1,10 @@
-variable "project_id" {
-  description = "GCP project_id for modules"
-  type        = string
-}
-
 variable "spaces" {
-  description = "List of dataflow jobs to be added"
+  description = "List of Spaces you want to create"
   type        = any
 }
 
 variable "spaces_default" {
-  description = "Details of specific dataflow job."
+  description = "Default list of Spaces variables. We don't need to pass anything to this variable."
   type = object({
     name   = string
     region = string
