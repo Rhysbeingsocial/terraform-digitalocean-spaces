@@ -12,8 +12,8 @@ Terraform documentation on Spaces
 **Basic example**
 
     module  "spaces-bucket" {
-	    source  = "rhysbeingsocial/spaces-bucket/digitalocean"
-	    version = "0.1"
+	    source  = "rhysjson/spaces-bucket/digitalocean"
+	    version = "0.1.0"
 	    spaces = [{
 		    "name" = "bucket-name"
 		    "region" = "ams3"
